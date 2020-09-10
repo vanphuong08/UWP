@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="lession1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:lession1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:ConnectionId='2' x:Name="btnclick" Content="Button" Margin="344,63,0,0" VerticalAlignment="Top"                       />
+        <TextBlock x:ConnectionId='3' x:Name="txtblock" HorizontalAlignment="Left" Margin="88,171,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="109" Width="234"/>
+        <TextBox x:ConnectionId='4' x:Name="fullname" HorizontalAlignment="Left" Margin="88,59,0,0" Text="fullname" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Height="32"/>
+
+    </Grid>
+</Page>
+
